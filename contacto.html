@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto — ÚtilesYA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>ÚtilesYA</h1>
+  <nav>
+    <a href="inicio.html">Inicio</a>
+    <a href="tienda.html">Tienda</a>
+    <a href="#" class="activo">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Contacto y Soporte</h2>
+  <p>Puedes enviar una queja, reseña o solicitar una devolución.</p>
+
+  <section class="grid">
+
+    <article class="card">
+      <h3>Enviar queja</h3>
+      <form>
+        <label>Tipo
+          <select><option>Queja</option><option>Denuncia</option></select>
+        </label>
+
+        <label>Email
+          <input type="email" required>
+        </label>
+
+        <label>Descripción
+          <textarea required></textarea>
+        </label>
+
+        <button class="btn">Enviar</button>
+      </form>
+    </article>
+
+    
+    <article class="card">
+      <h3>Dejar reseña</h3>
+      <form>
+        <label>Nombre
+          <input type="text" required>
+        </label>
+
+        <label>Calificación
+          <select>
+            <option>5 estrellas</option>
+            <option>4 estrellas</option>
+            <option>3 estrellas</option>
+            <option>2 estrellas</option>
+            <option>1 estrella</option>
+          </select>
+        </label>
+
+        <label>Comentario
+          <textarea required></textarea>
+        </label>
+
+        <button class="btn">Publicar</button>
+      </form>
+    </article>
+
+    <article class="card">
+      <h3>Solicitar devolución</h3>
+      <form>
+        <label>Nº Pedido
+          <input type="text" required>
+        </label>
+
+        <label>Motivo
+          <select>
+            <option>Defecto</option>
+            <option>No era lo esperado</option>
+          </select>
+        </label>
+
+        <button class="btn">Solicitar</button>
+      </form>
+    </article>
+
+  </section>
+</main>
+
+<footer>
+  <small>© 2025 ÚtilesYA</small>
+</footer>
+
+</body>
+</html>
